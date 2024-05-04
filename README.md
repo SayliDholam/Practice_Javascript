@@ -5,14 +5,14 @@ This repository serves as a beginner-friendly guide to JavaScript, covering fund
 
 ## Table of Contents
 
-- [Variables](#variables)
+- [Variables](#Variables)
 - [Data Types](#data-types)
 - [Console](#console)
 - [Functions](#functions)
 
 <br>
 1. Variables<br>
-In JavaScript, variables are containers for storing data values. Variables are declared using the `var`, `let`, or `const` keyword.<br>
+- In JavaScript, variables are containers for storing data values. Variables are declared using the `var`, `let`, or `const` keyword.<br>
 ```javascript
 var a -= 10;
 ```
