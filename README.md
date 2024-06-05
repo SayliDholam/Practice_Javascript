@@ -5,10 +5,10 @@ This repository serves as a beginner-friendly guide to JavaScript, covering fund
 
 ## Table of Contents
 
-- [Variables](#Variables)
-- [Data Types](#data-types)
-- [Console](#console)
-- [Functions](#functions)
+- [Variables]
+- [Data Types]
+- [Console]
+- [Functions]
 
 <br>
 1. Variables<br>
