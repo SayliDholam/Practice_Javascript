@@ -14,6 +14,24 @@ This repository serves as a beginner-friendly guide to JavaScript, covering fund
 - Loops
 <br/>
 
+### Variables
+#### var
+It has Function-scoped. This ty of variable is accessible within the function it is declared in. If declared outside any function, it is globally scoped. Variables declared with var are hoisted to the top of their scope and initialized with undefined.Variables declared with var can be redeclared within the same scope.
+```
+function exampleVar() {
+    console.log(x); // undefined 
+    var x = 10;
+    console.log(x); // 10
+}
+exampleVar();
+// Global scope example
+var y = 20;
+console.log(y); // 20
+```
+
+
+<br/>
+
 ### Data Types
 #### Primitive Data Types :<br/>
 number: Numeric values, both integer and floating-point ```let age = 25;// Integer ``` ```let price = 19.99;  // Floating-point```<br/>
