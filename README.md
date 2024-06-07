@@ -23,13 +23,32 @@ function exampleVar() {
     var x = 10;
     console.log(x); // 10
 }
+
 exampleVar();
+
 // Global scope example
 var y = 20;
 console.log(y); // 20
 ```
 
+#### let
+It has Block-scoped. The variable is accessible only within the block (e.g., {}) it is declared in. Variables declared with let are hoisted but not initialized. Accessing them before declaration results in a ReferenceError. Variables declared with let cannot be redeclared within the same scope
+```
+function exampleLet() {
+    // console.log(a); // ReferenceError 
+    let a = 30;
+    console.log(a); // 30
+}
 
+exampleLet();
+
+// Block scope example
+{
+    let b = 40;
+    console.log(b); // 40
+}
+// console.log(b); // ReferenceError (b is not defined outside the block)
+```
 <br/>
 
 ### Data Types
