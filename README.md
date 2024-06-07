@@ -49,6 +49,32 @@ exampleLet();
 }
 // console.log(b); // ReferenceError (b is not defined outside the block)
 ```
+
+#### const
+It has Block-scoped. The variable is accessible only within the block it is declared in. Variables declared with const are hoisted but not initialized. Accessing them before declaration results in a ReferenceError. Variables declared with const cannot be redeclared within the same scope. The value assigned to a const variable cannot be changed. However, if the value is an object or an array, the properties of the object or elements of the array can still be modified.
+```
+function exampleConst() {
+    // console.log(c); // ReferenceError (hoisting does not initialize)
+    const c = 50;
+    console.log(c); // 50
+    // c = 60; // TypeError (assignment to constant variable)
+}
+
+exampleConst();
+
+// Block scope example
+{
+    const d = 70;
+    console.log(d); // 70
+    // d = 80; // TypeError (assignment to constant variable)
+}
+// console.log(d); // ReferenceError (d is not defined outside the block)
+
+// Mutable object example
+const person = { name: "Alice" };
+person.name = "Bob"; // Allowed
+console.log(person.name); // Bob
+```
 <br/>
 
 ### Data Types
