@@ -11,6 +11,7 @@ This repository serves as a beginner-friendly guide to JavaScript, covering fund
 - Data Types
 - Console
 - Functions
+- Loops
 <br/>
 
 ### Data Types
