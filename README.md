@@ -88,3 +88,4 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
 
 <br/>
 
+### Console 
