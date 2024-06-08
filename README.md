@@ -90,3 +90,13 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
 <br/>
 
 ### Console 
+1. #### console.log()
+   - Used to print general messages to the console.
+   - Useful for debugging and displaying variable values.
+   - ```
+     console.log("Hello, world!");
+     let name = "John";
+     console.log("Name:", name);
+     ```
+2. 
+3. 
