@@ -16,6 +16,7 @@ This repository serves as a beginner-friendly guide to JavaScript, covering fund
 
 ### Variables
 #### var
+
 It has Function-scoped. This ty of variable is accessible within the function it is declared in. If declared outside any function, it is globally scoped. Variables declared with var are hoisted to the top of their scope and initialized with undefined.Variables declared with var can be redeclared within the same scope.
 ```
 function exampleVar() {
