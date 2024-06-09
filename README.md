@@ -104,15 +104,21 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
    - ```
      console.error("This is an error message.");
      ```
-3. #### 
-4. t
+3. #### console.warn()
+   - Used to output warning messages to the console.
+   - Displays messages in yellow to indicate a warning.
+   - ```
+     console.warn("This is a warning message.");
+     ```
+4. ####
 5. t
 6. t
 7. t
 8. t
 9. t
 10. t
-11. 4
+11. t
+12. 4
                         
 
 
