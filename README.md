@@ -98,15 +98,21 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
      let name = "John";
      console.log("Name:", name);
      ```
-2. r
-3. t
+2. #### console.error()
+   - Used to output error messages to the console.
+   - Displays messages in red to indicate an error.
+   - ```
+     console.error("This is an error message.");
+     ```
+3. #### 
 4. t
 5. t
 6. t
 7. t
 8. t
 9. t
-10. 4
+10. t
+11. 4
                         
 
 
