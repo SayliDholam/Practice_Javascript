@@ -110,7 +110,12 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
    - ```
      console.warn("This is a warning message.");
      ```
-4. ####
+4. #### console.info()
+   - Used to output informational messages to the console.
+   - Similar to console.log(), but with an informational context.
+   - ```
+     console.info("This is an informational message.");
+     ```
 5. t
 6. t
 7. t
@@ -118,7 +123,8 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
 9. t
 10. t
 11. t
-12. 4
+12. t
+13. 4
                         
 
 
