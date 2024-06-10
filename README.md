@@ -116,15 +116,19 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
    - ```
      console.info("This is an informational message.");
      ```
-5. t
-6. t
+5. #### console.table()
+   - Used to display data in a table format.
+   - Particularly useful for viewing arrays and objects.
+   - ``` let users = [ { id: 1, name: "Alice", age: 25 }, { id: 2, name: "Bob", age: 30 } ]; console.table(users); ```
+6. f
 7. t
 8. t
 9. t
 10. t
 11. t
 12. t
-13. 4
+13. t
+14. 4
                         
 
 
