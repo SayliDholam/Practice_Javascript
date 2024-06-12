@@ -120,7 +120,10 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
    - Used to display data in a table format.
    - Particularly useful for viewing arrays and objects.
    - ``` let users = [ { id: 1, name: "Alice", age: 25 }, { id: 2, name: "Bob", age: 30 } ]; console.table(users); ```
-6. f
+6. #### console.group() and console.groupEnd()
+   - Used tUsed to group related log messages together.
+   - Makes the console output more organized.
+   - ``` console.group("User Details");  console.log("Name: Alice");  console.log("Age: 25");  console.groupEnd(); ```
 7. t
 8. t
 9. t
