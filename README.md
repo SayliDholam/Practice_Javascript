@@ -126,13 +126,8 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
    - ``` console.group("User Details");  console.log("Name: Alice");  console.log("Age: 25");  console.groupEnd(); ```
 7. t
 8. t
-9. t
-10. t
-11. t
-12. t
-13. t
-14. 4
                         
+<br/>
 
 
 
