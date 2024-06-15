@@ -76,7 +76,7 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
 7. #### console.time() and console.timeEnd()
    - Used to measure the time taken for a block of code to execute.
    - Useful for performance testing.
-   - ```console.time("Timer"); for (let i = 0; i < 1000; i++) {} console.timeEnd("Timer"); ```
+   - ```console.time("Timer"); for (let i = 0; i < 1000; i++) {//some code } console.timeEnd("Timer"); ```
 8. t
                         
 <br/>
