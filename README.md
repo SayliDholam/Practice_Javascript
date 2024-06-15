@@ -73,7 +73,10 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
    - Used tUsed to group related log messages together.
    - Makes the console output more organized.
    - ``` console.group("User Details");  console.log("Name: Alice");  console.log("Age: 25");  console.groupEnd(); ```
-7. t
+7. #### console.time() and console.timeEnd()
+   - Used to measure the time taken for a block of code to execute.
+   - Useful for performance testing.
+   - ```console.time("Timer"); for (let i = 0; i < 1000; i++) {} console.timeEnd("Timer"); ```
 8. t
                         
 <br/>
