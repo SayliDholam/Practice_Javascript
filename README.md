@@ -80,7 +80,7 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
 8. #### console.clear()
    - Used to clear the console.
    - Clears all previously logged messages.
-   -``` console.clear(); ```
+   - ```console.clear(); ```
                         
 <br/>
 
