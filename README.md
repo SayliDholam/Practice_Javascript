@@ -77,7 +77,10 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
    - Used to measure the time taken for a block of code to execute.
    - Useful for performance testing.
    - ```console.time("Timer"); for (let i = 0; i < 1000; i++) {//some code } console.timeEnd("Timer"); ```
-8. t
+8. #### console.clear()
+   - Used to clear the console.
+   - Clears all previously logged messages.
+   -``` console.clear(); ```
                         
 <br/>
 
