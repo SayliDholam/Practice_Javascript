@@ -85,8 +85,16 @@ Objects: A collection of key-value pairs. ```let person = { name: "John", age: 3
 <br/>
 
 ### Functions
-#### subtypes
-
+Functions in JavaScript are fundamental building blocks that allow you to encapsulate code for reuse, organization, and modularity.
+#### Function Declarations
+A function declaration defines a named function that can be called anywhere in the code, even before the function is declared due to hoisting.
+``` function functionName(parameter1, parameter2, ..., parameterN) {
+    // Function body
+    // Code to be executed
+}
+```
+#### Function Expressions
+A function expression defines a function as part of a larger expression syntax, usually by assigning it to a variable. Function expressions are not hoisted.
 <br/>
 
 ### Loops
