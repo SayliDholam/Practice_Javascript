@@ -97,6 +97,9 @@ A function declaration defines a named function that can be called anywhere in t
 A function expression defines a function as part of a larger expression syntax, usually by assigning it to a variable. Function expressions are not hoisted.
 <br/>
 
+
+
+
 ### Loops
 #### subtypes
 
