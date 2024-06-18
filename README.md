@@ -96,7 +96,18 @@ function functionName(parameter1, parameter2, ..., parameterN) {
 ```
 #### Function Expressions
 A function expression defines a function as part of a larger expression syntax, usually by assigning it to a variable. Function expressions are not hoisted.
+```
+const functionName = function(parameter1, parameter2, ..., parameterN) {
+    // Function body
+    // Code to be executed
+};
+```
 <br/>
+
+#### Arrow Functions
+Arrow functions provide a concise syntax for writing functions. They do not have their own this context and are always anonymous.
+
+
 
 
 
