@@ -102,8 +102,6 @@ const functionName = function(parameter1, parameter2, ..., parameterN) {
     // Code to be executed
 };
 ```
-<br/>
-
 #### Arrow Functions
 Arrow functions provide a concise syntax for writing functions. They do not have their own this context and are always anonymous.
 ```
