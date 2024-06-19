@@ -111,12 +111,16 @@ const functionName = (parameter1, parameter2, ..., parameterN) => {
 };
 ```
 
-
-
-
+<br/>
 
 ### Loops
 #### subtypes
+
+
+
+
+
+
 
 <br/>
 
