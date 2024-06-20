@@ -123,6 +123,13 @@ for (initialization; condition; iteration) {
 }
 ```
 
+#### while Loop
+The while loop executes a block of code as long as the specified condition is true. The condition is checked before the loop body is executed.
+```
+while (condition) {
+    // Code to be executed
+}
+```
 
 
 
