@@ -114,9 +114,14 @@ const functionName = (parameter1, parameter2, ..., parameterN) => {
 <br/>
 
 ### Loops
-#### subtypes
-
-
+Loops are used to repeatedly execute a block of code as long as a specified condition is true. 
+#### for loop
+The for loop is used when the number of iterations is known beforehand. It consists of three parts: initialization, condition, and iteration.
+```
+for (initialization; condition; iteration) {
+    // Code to be executed
+}
+```
 
 
 
