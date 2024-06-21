@@ -131,7 +131,13 @@ while (condition) {
 }
 ```
 
-
+#### do...while Loop
+The do...while loop is similar to the while loop, but it guarantees that the code block will be executed at least once before the condition is tested.
+```
+do {
+    // Code to be executed
+} while (condition);
+```
 
 
 <br/>
