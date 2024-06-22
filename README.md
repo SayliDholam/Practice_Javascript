@@ -139,7 +139,13 @@ do {
 } while (condition);
 ```
 
-
+#### for...in Loop
+The for...in loop is used to iterate over the enumerable properties of an object. It loops through the properties of an object or the indices of an array.
+```
+for (variable in object) {
+    // Code to be executed
+}
+```
 <br/>
 
 
