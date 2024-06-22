@@ -146,6 +146,15 @@ for (variable in object) {
     // Code to be executed
 }
 ```
+
+#### for...of Loop
+The for...of loop is used to iterate over the values of an iterable object (like an array, string, or NodeList).
+```
+for (variable of iterable) {
+    // Code to be executed
+}
+```
+
 <br/>
 
 
